@@ -1,0 +1,14 @@
+{
+  "name": "interview-fizz-buzz",
+  "version": "0.1.0",
+  "description": "Interview Fizz Buzz",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.6.1"
+  }
+}
