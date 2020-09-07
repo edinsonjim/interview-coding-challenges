@@ -1,8 +1,7 @@
 {
-  "name": "interview-fizz-buzz",
+  "name": "interview-coding-challenges",
   "version": "0.1.0",
-  "description": "Interview Fizz Buzz",
-  "main": "index.js",
+  "description": "Interview Coding Challenges",
   "scripts": {
     "test": "jasmine"
   },
