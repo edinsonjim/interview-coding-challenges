@@ -10,7 +10,17 @@ var NOT_IMPLEMENTED = undefined;
     4. altrimenti restituisce il valore di input.
 */
 var problems = {
-  fizzBuzz: NOT_IMPLEMENTED
+  fizzBuzz: function(i) {
+    if (i % 15 == 0) {
+    	return "FizzBuzz";
+    } else if (i % 3 == 0) {
+        return "Fizz";
+    } else if (i % 5 == 0) {
+    	return "Buzz";
+    } else {
+    	return i;
+    }   
+  }
 }
 
 describe("Fizz Buzz Problem", () => {
